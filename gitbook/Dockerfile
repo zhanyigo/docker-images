@@ -1,6 +1,6 @@
 FROM node:6-slim
 
-MAINTAINER yi zhan <zyzy257@gmail.com>
+MAINTAINER yi.zhan <zyzy257@gmail.com>
 
 ARG VERSION=3.2.2
 
