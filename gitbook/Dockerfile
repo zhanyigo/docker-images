@@ -2,7 +2,7 @@ FROM node:6-slim
 
 MAINTAINER yi zhan <zyzy257@gmail.com>
 
-ARG VERSION=3.2.3
+ARG VERSION=3.2.2
 
 LABEL version=$VERSION
 
