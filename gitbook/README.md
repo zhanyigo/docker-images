@@ -3,11 +3,11 @@
 [![Docker Stars](https://img.shields.io/docker/stars/zhanyi/gitbook.svg)](https://hub.docker.com/r/zhanyi/gitbook/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/zhanyi/gitbook.svg)](https://hub.docker.com/r/zhanyi/gitbook/)
 [![Docker Automated build](https://img.shields.io/docker/automated/zhanyi/gitbook.svg)](https://hub.docker.com/r/zhanyi/gitbook/)
+[![Docker Build Statu](https://img.shields.io/docker/build/zhanyi/gitbook.svg)](https://hub.docker.com/r/zhanyi/gitbook/)
 
-This is an image to get a gitbook. 
+## Usage
 
 Run container:
-
 ```
 $ docker run -p 80:4000 -v /srv/gitbook zhanyi/gitbook
 ```
