@@ -3,7 +3,7 @@
 [![Docker Stars](https://img.shields.io/docker/stars/zhanyi/gitbook.svg)](https://hub.docker.com/r/zhanyi/gitbook/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/zhanyi/gitbook.svg)](https://hub.docker.com/r/zhanyi/gitbook/)
 [![Docker Automated buil](https://img.shields.io/docker/automated/zhanyi/gitbook.svg)](https://hub.docker.com/r/zhanyi/gitbook/)
-[![Docker Build Statu](https://img.shields.io/docker/build/zhanyi/gitbook.svg)](https://hub.docker.com/r/zhanyi/gitbook/)
+[![Docker Build Statu](https://img.shields.io/docker/build/zhanyi/gitbook.svg)](https://cloud.docker.com/r/zhanyi/gitbook/)
 
 This is an image to get a gitbook. 
 
