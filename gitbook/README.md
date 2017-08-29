@@ -1,11 +1,11 @@
-# zhanyigo/gitbook
+# zhanyi/gitbook
 
 This is an image to get a gitbook. 
 
 Run container:
 
 ```
-$ docker run -p 80:4000 -v /srv/gitbook zhanyigo/gitbook
+$ docker run -p 80:4000 -v /srv/gitbook zhanyi/gitbook
 ```
 
 `4000` – GitBook default service port.
@@ -17,7 +17,7 @@ $ docker run -p 80:4000 -v /srv/gitbook zhanyigo/gitbook
 ## Build Static Website
 
 ```
-$ docker run -v /srv/gitbook -v /srv/html zhanyigo/gitbook gitbook build . /srv/html
+$ docker run -v /srv/gitbook -v /srv/html zhanyi/gitbook gitbook build . /srv/html
 ```
 
 ## Gitlab CI
@@ -26,7 +26,7 @@ Build a website and publish to gitlab pages.
 
 ```yml
 # requiring the environment of NodeJS 4.2.2
-image: zhanyigo/gitbook:latest
+image: zhanyi/gitbook:latest
 # add 'node_modules' to cache for speeding up builds
 cache:
   paths:
