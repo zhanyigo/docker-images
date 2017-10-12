@@ -1,4 +1,4 @@
-FROM centos:7
+FROM openshift/jenkins-slave-maven-centos7
 
 MAINTAINER yi.zhan <zyzy257@gmail.com>
 
