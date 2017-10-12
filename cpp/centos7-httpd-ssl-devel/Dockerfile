@@ -1,6 +1,6 @@
 FROM zhanyi/cpp-centos7
 
-AINTAINER yi.zhan <zyzy257@gmail.com>
+MAINTAINER yi.zhan <zyzy257@gmail.com>
 
 RUN yum install -y pcre-devel openssl-devel &&\
 	yum clean all &&\
