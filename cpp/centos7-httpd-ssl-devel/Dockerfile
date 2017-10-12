@@ -1,4 +1,4 @@
-FROM zhanyi/cpp-centos7
+FROM zhanyi/gcc-centos7
 
 MAINTAINER yi.zhan <zyzy257@gmail.com>
 
