@@ -2,7 +2,7 @@ FROM docker.bintray.io/jfrog/artifactory-oss:latest
 MAINTAINER yi zhan
 
 COPY configure-and-start.sh /tmp/
-RUN chown 500 /tmp/configure-and-start.sh && mkdir ${IMPORTPATH}
+RUN chown 500 /tmp/configure-and-start.sh
 
 VOLUME ["/var/opt/jfrog/artifactory/access"]
 VOLUME ["/var/opt/jfrog/artifactory/backup"]
