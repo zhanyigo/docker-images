@@ -1,9 +1,6 @@
 FROM docker.bintray.io/jfrog/artifactory-oss:latest
 MAINTAINER yi zhan
 
-ENV IMPORTCERT    false
-ENV IMPORTPATH    /var/certificates
-
 COPY configure-and-start.sh /tmp/
 RUN chown 500 /tmp/configure-and-start.sh && mkdir ${IMPORTPATH}
 
