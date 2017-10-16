@@ -1,6 +1,6 @@
 FROM zhanyi/jenkins-jnpl-slave
 
-MANTAINER yi zhan <zyzy257@gmail.com>
+MAINTAINER yi zhan <zyzy257@gmail.com>
 
 RUN yum clean all && \
     yum -y install epel-release && \
