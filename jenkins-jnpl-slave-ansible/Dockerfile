@@ -2,7 +2,7 @@ FROM zhanyi/jenkins-jnpl-slave
 
 MAINTAINER yi zhan <zyzy257@gmail.com>
 
-user root
+USER root
 
 RUN yum clean all && \
     yum -y install epel-release && \
@@ -12,5 +12,5 @@ RUN yum clean all && \
     pip install ansible && \
     yum clean all
 
-user jenkins
+USER jenkins
     
