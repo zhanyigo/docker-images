@@ -1,11 +1,5 @@
 FROM centos:centos7
 MAINTAINER yi zhan <zyzy257@gmail.com>
-RUN yum clean all && \
-    yum -y install epel-release && \
-    yum -y install PyYAML python-jinja2 python-httplib2 python-keyczar python-paramiko python-setuptools git python-pip && \
-    mkdir /etc/ansible/ && \
-    echo -e '[local]\nlocalhost' > /etc/ansible/hosts && \
-    pip install ansible
 
 ENV HOME /home/jenkins
 LABEL Description="This is a base image, which provides the Jenkins agent executable (slave.jar)" Vendor="Jenkins project" Version="3.10"
