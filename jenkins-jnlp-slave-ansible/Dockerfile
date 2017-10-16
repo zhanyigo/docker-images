@@ -1,4 +1,4 @@
-FROM zhanyi/jenkins-jnpl-slave
+FROM zhanyi/jenkins-jnlp-slave
 
 MAINTAINER yi zhan <zyzy257@gmail.com>
 
