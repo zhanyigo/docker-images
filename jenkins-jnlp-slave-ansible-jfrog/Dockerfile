@@ -4,5 +4,5 @@ RUN mkdir /home/jenkins/bin && cd /home/jenkins/bin && curl -fL https://getcli.j
 
 ENV PATH /usr/bin:/home/jenkins/bin:/bin:/usr/local/bin
 
-CMD "/bin/bash"
+ENTRYPOINT "/bin/bash"
 
