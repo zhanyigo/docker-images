@@ -18,5 +18,6 @@ USER jenkins
 
 ENV PATH=${PATH}:/home/jenkins/bin
 ENV M2_HOME=/home/jenkins
+ENV JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk
 
 ENTRYPOINT ["jenkins-slave"]
