@@ -5,5 +5,5 @@ MAINTAINER yi zhan <zyzy257@gmail.com>
 RUN wget http://mirrors.hust.edu.cn/apache/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.tar.gz -O /tmp/apache-maven-3.5.2-bin.tar.gz \
   && tar xzvf /tmp/apache-maven-3.5.2-bin.tar.gz -C /tmp \
   && cp -r /tmp/apache-maven-3.5.2/* /usr/local \
-  && rm -rf /tmp/apache-maven-3.5.2 \
+  && rm -rf /tmp/apache-maven-3.5.2 /tmp/apache-maven-3.5.2-bin.tar.gz \
   && chmod -R 755 /usr/local
